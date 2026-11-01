@@ -1,0 +1,18 @@
+# Core scheduling needs only the Python standard library.
+# Optional: Claude tool-calling mode
+anthropic>=0.40.0,<1.0
+# Optional: ChatGPT tool-calling mode
+openai>=1.0.0,<2.0
+# Optional: load ANTHROPIC_API_KEY from a local .env file
+python-dotenv>=1.0.0,<2.0
+# Optional: syllabus PDF upload and inspection
+pymupdf>=1.23.0,<2.0
+# Optional: offline speech transcription (base model downloads on first use)
+faster-whisper>=1.1.0,<2.0.0
+# Frontend
+streamlit>=1.39.0,<2.0
+pandas>=2.0.0,<3.0
+altair>=5.0.0,<6.0
+
+# Testing
+pytest>=8.0.0,<9.0
